@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshman Front-End developer</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .form-container{
+            padding: 30px;
+        }
+        .form-label{
+            margin: 10px;
+        }
+        .btn{
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .textarea{
+            height: 80px;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="form-container">
+            <h2>Contact me for general Enquries </h2>
+            <form action="lks812003@gmail.com">
+                <div class="mb-3">
+                    <label>First Name:</label>
+                    <input type="text" id="fname"  class="form-label" name="firstname" placeholder="Your first name...">
+                    <br>
+                    <label>Last Name:</label>
+                    <input type="text" id="lname" class="form-label" name="lastname" placeholder="Your last name...">
+                </div>
+                <div class="mb-3">
+                    <label for="clientphone" class="form-label">Phone:</label>
+                    <input type="phone" class="form-control" id="clientphone" placeholder="Your Phone number...">
+
+                </div>
+                <div class="mb3">
+                    <label for="clientmessage" class="form-label">Message:</label>
+                    <input type="text" class="textarea" placeholder="Enter Your Message....">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
